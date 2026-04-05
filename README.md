@@ -10,9 +10,12 @@
 * **模組化設計**：將數值顯示邏輯抽離至獨立的 `ShowWords` 子視圖，提高代碼的可讀性。
 
 ## 📸 介面演示
-![ScreenRecording_09-28-2025 23-04-14_1](https://github.com/user-attachments/assets/3065d824-9518-4ada-8124-af00a923e638)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3065d824-9518-4ada-8124-af00a923e638" width="250" alt="RGB Color Picker 介面演示">
+</p>
+<p align="center"><i>RGB 滑桿調整與即時背景顏色預覽</i></p>
 
-## 🛠 技術棧
+## 🛠 Tech Stack
 
 * **語言**: Swift
 * **框架**: SwiftUI
