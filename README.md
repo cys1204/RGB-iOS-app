@@ -44,10 +44,15 @@ git clone [https://github.com/YourUsername/RGB-Picker.git](https://github.com/Yo
 ## 💡 程式碼亮點
 在 ContentView.swift 中，我們透過 @State 屬性包裝器來驅動介面更新。當滑桿改變狀態時，SwiftUI 會自動重新渲染背景：
 
+```text
 Swift
 Color(red: redValue, green: greenValue, blue: blueValue)
     .edgesIgnoringSafeArea(.all)
+```
+
 並透過自定義元件 ShowWords 來處理數值轉換邏輯：
+
+```text
 
 Swift
 struct ShowWords: View {
@@ -61,5 +66,7 @@ struct ShowWords: View {
         }.frame(width: 100).fixedSize()
     }
 }
+```
+
 ## ✍️ 作者
-CYS
+**CYS**
